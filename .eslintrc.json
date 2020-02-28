@@ -1,0 +1,35 @@
+{
+  "extends": [
+    "react-app",
+    "airbnb",
+    "airbnb/hooks",
+    "prettier",
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+    "prettier/@typescript-eslint"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint/eslint-plugin", "prettier"],
+  "root": true,
+  "rules": {
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "prettier/prettier": ["error"],
+    "spaced-comment": "off",
+    "prefer-destructuring": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "react/jsx-indent": ["error", 4],
+    "react/jsx-indent-props": ["error", 4],
+    "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
+    "react/display-name": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/prop-types": "off",
+    "jsx-a11y/label-has-associated-control": ["error", { "assert": "either" }],
+    "no-continue": "off",
+    "no-console": "off",
+    "no-param-reassign": ["error", { "props": false }],
+    "import/no-extraneous-dependencies": "off",
+    "import/extensions": "off",
+    "import/no-unresolved": "off"
+  }
+}

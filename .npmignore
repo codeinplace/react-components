@@ -1,7 +1,0 @@
-/node_modules
-/src
-/dist/*.spec.js
-commitlint.config.js
-.gitignore
-.npmignore
-yarn.lock
