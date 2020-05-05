@@ -1,0 +1,10 @@
+{
+  "version": "v1",
+  "packages": {
+    "@codeinplace/react-components": {
+      "signature": "f1bba67f8d3fd43aac4df98da96bf26d",
+      "file": true,
+      "replaced": "link:.."
+    }
+  }
+}
